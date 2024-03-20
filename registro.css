@@ -1,0 +1,240 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;    
+    background-color: #dde5b6;
+}
+
+#menu {
+    display: block;
+    align-items: center;
+    background-image: linear-gradient(to right, #a98467 0%, #a98467 0%, #a98467 21%, #a98467 52%, #a98467 60%, #403d39 100%);
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 25px;
+}
+
+#menu .opci ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu .opci ul li{
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+#menu .icono{
+    float: left;
+    margin-top: 7px;
+    color: black;
+}
+
+#menu i{
+    margin-right: 10px;
+}
+
+#menu ul li a:hover {
+    background-color:#dde5b6;
+    color:  black;
+    border-radius: 20px;
+    padding: 0 25px;
+}
+
+
+#personal{
+    border-style: solid;
+    margin: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#primerp{
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+}
+
+#primerp label{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#primerp input{
+    width: 350px;
+    font-size: 15px;
+}
+
+#personal p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#personal i{
+    padding-right: 10px;
+}
+
+#segundop{
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+#segundop label{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#segundop input{
+    width: 350px;
+    font-size: 15px;
+}
+
+#personal p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mascota{
+    border-style: solid;
+    margin: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#primerm{
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-between;
+}
+
+#primerm label{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#primerm input{
+    width: 350px;
+    font-size: 15px;
+}
+
+#personalm p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#mascota p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#mascota i{
+    padding-right: 10px;
+}
+
+#cita{
+    border-style: solid;
+    margin: 25px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#primerc{
+    display: flex;
+    padding: 0 25px;
+    justify-content: space-around;
+}
+
+#primerc label{
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+#primerc input{
+    width: 300px;
+    font-size: 15px;
+}
+
+#personalm p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#cita p{
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#cita i{
+    padding-right: 10px;
+}
+
+
+#botones{
+    display: flex;
+    justify-content: end;
+    margin-bottom: 30px;
+    margin-right: 35px;
+}
+
+#botones .btn-enviar{
+    background-color: #a98467;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 5px -5px #403d39;
+    margin-right: 50px;
+}
+
+#botones .btn-limpiar{
+    background-color: #a98467;
+    border: none;
+    border-radius: 10px;
+    width: 90px;
+    height: 40px;
+    text-align: center;
+    box-shadow: 5px -5px #403d39;
+}
+
+footer{
+    background-image: linear-gradient(to right, #a98467 0%, #a98467 0%, #a98467 21%, #a98467 52%, #a98467 60%, #403d39 100%);
+    display: flex;
+    margin: 20px;
+    border-radius: 25px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .primera{
+    margin-top: 10px;
+    display: flex;
+}
+
+footer .carne{
+    margin-left: 50px;
+}
+
+footer .copy{
+    text-align: center;
+    margin-top: -10px;
+}

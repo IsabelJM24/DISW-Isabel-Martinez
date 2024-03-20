@@ -1,0 +1,110 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;    
+    background-color: #dde5b6;
+}
+
+#menu {
+    display: block;
+    align-items: center;
+    background-image: linear-gradient(to right, #a98467 0%, #a98467 0%, #a98467 21%, #a98467 52%, #a98467 60%, #403d39 100%);
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 25px;
+}
+
+#menu .opci ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu .opci ul li{
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+#menu .icono{
+    float: left;
+    margin-top: 7px;
+    color: black;
+}
+
+#menu i{
+    margin-right: 10px;
+}
+
+#menu ul li a:hover {
+    background-color:#dde5b6;
+    color:  black;
+    border-radius: 20px;
+    padding: 0 25px;
+}
+
+.informacion p{
+    text-align: center;
+    margin: 25px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.card-container {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    margin-top: 30px;
+}
+
+.card-container .card{
+    background-color: #dde5b6;
+    border: none;
+}
+
+.card-container .card img{
+    border-radius: 50%;
+    width: 240px;
+    height: 180px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.card-container .card .card-content h4{
+    text-align: center;
+    font-weight: bold;
+}
+
+
+.card-container .card .card-content ul{
+    margin-left: 20%;
+}
+
+footer{
+    background-image: linear-gradient(to right, #a98467 0%, #a98467 0%, #a98467 21%, #a98467 52%, #a98467 60%, #403d39 100%);
+    display: flex;
+    margin: 20px;
+    border-radius: 25px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .primera{
+    margin-top: 10px;
+    display: flex;
+}
+
+footer .carne{
+    margin-left: 50px;
+}
+
+footer .copy{
+    text-align: center;
+    margin-top: -10px;
+}

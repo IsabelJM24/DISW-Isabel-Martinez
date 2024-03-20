@@ -1,0 +1,194 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 16px;    
+    background-color: #dde5b6;
+}
+
+#menu {
+    display: block;
+    align-items: center;
+    background-image: linear-gradient(to right, #a98467 0%, #a98467 0%, #a98467 21%, #a98467 52%, #a98467 60%, #403d39 100%);
+    height: 40px;
+    border-radius: 20px;
+    margin: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    padding: 0 25px;
+}
+
+#menu .opci ul{
+    display: flex;
+    justify-content: center;
+}
+
+#menu .opci ul li{
+    list-style-type: none;
+    margin-top: 7px;
+}
+
+#menu .icono{
+    float: left;
+    margin-top: 7px;
+    color: black;
+}
+
+#menu i{
+    margin-right: 10px;
+}
+
+#menu ul li a:hover {
+    background-color:#dde5b6;
+    color:  black;
+    border-radius: 20px;
+    padding: 0 25px;
+}
+
+#info {
+    margin: 30px;
+}
+
+#info i{
+    margin-right: 10px;
+}
+
+#info h4{
+    text-align: center;
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.dias {
+    display: flex;
+    justify-content: space-around;
+}
+
+#info p{
+    text-align: center;
+    font-size: 17px;
+}
+
+#info .dias h3{
+    text-align: center;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#info .dias p{
+    text-align: center;
+    font-size: 16px;
+}
+
+#info .info p {
+    text-align: justify;
+    margin: 10px;
+    font-size: 16px;
+}
+
+#cont {
+    display: flex;
+    justify-content: space-around;
+    margin: 25px;
+    margin-bottom: 40px;
+}
+
+#cont i{
+    margin-right: 10px;
+}
+
+.redes{
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 525px;
+}
+
+.redes h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.redes .prin{
+    text-align: center;
+}
+
+.redes .red {
+    display:block;
+}
+
+.redes .red img{
+    width: 240px;
+    float: right;
+    align-items: center;
+    margin: 10px;
+    border-radius: 50%;
+}
+
+.redes .red p{
+    text-align: justify;
+    margin-left: 20px;
+    font-size: 17px;
+    display: block;
+}
+
+.mapa{
+    border-style: solid;
+    border-radius: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 525px;
+}
+
+.mapa h4{
+    text-align: center;
+    font-weight: bold;
+    font-size: 22px;
+    margin-top: 10px;
+}
+
+.mapa .ubi img{
+    width: 250px;
+    border-radius: 30px;
+    margin-left: 145px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.mapa .ubi p{
+    margin-left: 30px;
+    font-size: 17px;
+    text-align: center;
+}
+
+footer{
+    background-image: linear-gradient(to right, #a98467 0%, #a98467 0%, #a98467 21%, #a98467 52%, #a98467 60%, #403d39 100%);
+    display: flex;
+    margin: 20px;
+    border-radius: 25px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .primera{
+    margin-top: 10px;
+    display: flex;
+}
+
+footer .carne{
+    margin-left: 50px;
+}
+
+footer .copy{
+    text-align: center;
+    margin-top: -10px;
+}
